@@ -8,4 +8,3 @@ Import-Package: javax.ws.rs,
  javax.ws.rs.core,
  javax.ws.rs.ext
 Service-Component: OSGI-INF/ProductService.xml, OSGI-INF/ProductProvider.xml
- 
