@@ -40,7 +40,7 @@ public class ExampleProvider implements MessageBodyWriter<Product> {
             writer.println("<body>");
             writer.println("Product name: "+t.getName());
             writer.println("<br/>");
-            writer.println("Product Description :<br/>"+t.getDescription());
+            writer.println("Product Description:<br/>"+t.getDescription());
             writer.println("</body>");
             writer.println("</html>");
             writer.flush();
